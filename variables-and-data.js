@@ -1,13 +1,8 @@
 /*
 * Variables, Data Types, and Typing
  */
-let obj ={
-    key1: "Value 1",
-    key2: 4,
-    boolean: true,
-    obj2: {
-        obj2Key1: "value of inner object"
-    }
-}
+let var1 = "2";
+let var2 = "5";
+let result = var1 + var2;
 
-console.log(obj.obj2.obj2Key1);
+console.log(result);
