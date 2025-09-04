@@ -1,13 +1,13 @@
 /*
 * Variables, Data Types, and Typing
  */
- let wordData
+let obj ={
+    key1: "Value 1",
+    key2: 4,
+    boolean: true,
+    obj2: {
+        obj2Key1: "value of inner object"
+    }
+}
 
-wordData = "Word list";
-
- console.log(wordData);
-
- let subTotal = 100;
- let tax = subTotal * 0.07;
- let totalWithTax = tax + subTotal;
-
+console.log(obj.obj2.obj2Key1);
